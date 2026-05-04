@@ -145,11 +145,11 @@ function loadImage() {
 function showEndScreen() {
   container.innerHTML = `
     <h1>🎉 Alors ?</h1>
-    <p style="font-size:38px; margin-top:15px;">
+    <p style="font-size:35px; margin-top:20px;">
       Prêts à être encore grands parents ?
     </p>
     <img id="images/imagefinale.jpeg" src = "images/imagefinale.jpeg">
-    <p style="margin-top:10px;">Score final : ${score} / ${images.length}</p>
+   
   `;
 }
 
