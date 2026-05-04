@@ -71,12 +71,12 @@
 
     .ia {
       background: #abebc3;
-      color: white;
+      color: black;
     }
 
     .notia {
       background: #a6f3f7;
-      color: white;
+      color: black;
     }
 
     button:hover {
@@ -148,6 +148,7 @@ function showEndScreen() {
     <p style="font-size:38px; margin-top:15px;">
       Prêts à être encore grands parents ?
     </p>
+    <img id="images/photo1.jpg">
     <p style="margin-top:10px;">Score final : ${score} / ${images.length}</p>
   `;
 }
