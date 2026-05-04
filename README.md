@@ -18,7 +18,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 300vh;
+      height: 100vh;
       transition: background 0.3s;
     }
 
