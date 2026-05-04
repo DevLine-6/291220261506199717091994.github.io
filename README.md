@@ -127,7 +127,7 @@ const images = [
     isAI: false
   },
   {
-    src: "images/photo4.jpg",
+    src: "images/photo1.jpg",
     isAI: false
   }
 ];
