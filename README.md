@@ -127,7 +127,7 @@ const images = [
     isAI: false
   },
   {
-    src: "images/photo1.jpg",
+    src: "images/photo4.jpg",
     isAI: false
   }
 ];
@@ -137,9 +137,20 @@ let score = 0;
 
 const imageEl = document.getElementById("image");
 const scoreEl = document.getElementById("score");
+const container = document.querySelector(".container");
 
 function loadImage() {
   imageEl.src = images[current].src;
+}
+
+function showEndScreen() {
+  container.innerHTML = `
+    <h1>🎉 Jeu terminé</h1>
+    <p style="font-size:18px; margin-top:15px;">
+      Prêts à être encore grands parents ?
+    </p>
+    <p style="margin-top:10px;">Score final : ${score} / ${images.length}</p>
+  `;
 }
 
 function answer(choice) {
@@ -159,12 +170,12 @@ function answer(choice) {
     setTimeout(() => document.body.classList.remove("wrong"), 300);
   }
 
-  // 👉 ORDRE STRICT : on avance simplement
   current++;
 
-  // 👉 fin du jeu (option 1 : boucle)
+  // 👉 FIN DU JEU
   if (current >= images.length) {
-    current = 0;
+    setTimeout(showEndScreen, 600);
+    return;
   }
 
   loadImage();
