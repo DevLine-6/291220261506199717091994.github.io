@@ -45,9 +45,9 @@
     }
 
     img {
-      width: 100%;
-      border-radius: 15px;
-      margin-bottom: 20px;
+      width: 200%;
+      border-radius: 25px;
+      margin-bottom: 30px;
       transition: transform 0.3s;
     }
 
@@ -145,7 +145,7 @@ function loadImage() {
 
 function showEndScreen() {
   container.innerHTML = `
-    <h1>🎉 Jeu terminé</h1>
+    <h1>🎉 Alors ?</h1>
     <p style="font-size:18px; margin-top:15px;">
       Prêts à être encore grands parents ?
     </p>
