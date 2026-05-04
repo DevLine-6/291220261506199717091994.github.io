@@ -14,7 +14,7 @@
 
     body {
       background: linear-gradient(135deg, #7EB09B, #476A6F);
-      color: black;
+      color: white;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -145,7 +145,7 @@ function loadImage() {
 function showEndScreen() {
   container.innerHTML = `
     <h1>🎉 Alors ?</h1>
-    <p style="font-size:35px; margin-top:20px;">
+    <p style="font-size:30px; margin-top:20px; color=#FC7A57">
       Prêts à être encore grands parents ?
     </p>
     <img id="images/imagefinale.jpeg" src = "images/imagefinale.jpeg">
