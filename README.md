@@ -13,12 +13,12 @@
     }
 
     body {
-      background: linear-gradient(135deg, #0f172a, #1e293b);
+      background: linear-gradient(135deg, #ebbd9b, #c9946d);
       color: white;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 300vh;
       transition: background 0.3s;
     }
 
@@ -26,11 +26,11 @@
       text-align: center;
       background: rgba(255,255,255,0.05);
       backdrop-filter: blur(10px);
-      padding: 30px;
-      border-radius: 20px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-      max-width: 400px;
-      width: 90%;
+      padding: 50px;
+      border-radius: 30px;
+      box-shadow: 0 30px 50px rgba(0,0,0,0.3);
+      max-width: 600px;
+      width: 100%;
     }
 
     h1 {
@@ -45,8 +45,8 @@
 
     img {
       width: 200%;
-      border-radius: 50px;
-      margin-bottom: 80px;
+      border-radius: 150px;
+      margin-bottom: 180px;
       transition: transform 0.3s;
     }
 
@@ -70,12 +70,12 @@
     }
 
     .ia {
-      background: #22c55e;
+      background: #abebc3;
       color: white;
     }
 
     .notia {
-      background: #3b82f6;
+      background: #a6f3f7;
       color: white;
     }
 
@@ -145,7 +145,7 @@ function loadImage() {
 function showEndScreen() {
   container.innerHTML = `
     <h1>🎉 Alors ?</h1>
-    <p style="font-size:18px; margin-top:15px;">
+    <p style="font-size:38px; margin-top:15px;">
       Prêts à être encore grands parents ?
     </p>
     <p style="margin-top:10px;">Score final : ${score} / ${images.length}</p>
