@@ -14,7 +14,7 @@
 
     body {
       background: linear-gradient(135deg, #7EB09B, #476A6F);
-      color: white;
+      color: black;
       display: flex;
       justify-content: center;
       align-items: center;
