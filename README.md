@@ -26,8 +26,8 @@
       text-align: center;
       background: rgba(255,255,255,0.05);
       backdrop-filter: blur(10px);
-      padding: 50px;
-      border-radius: 30px;
+      padding: 20px;
+      border-radius: 10px;
       box-shadow: 0 30px 50px rgba(0,0,0,0.3);
       max-width: 600px;
       width: 100%;
