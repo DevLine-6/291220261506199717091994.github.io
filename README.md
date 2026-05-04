@@ -148,7 +148,7 @@ function showEndScreen() {
     <p style="font-size:38px; margin-top:15px;">
       Prêts à être encore grands parents ?
     </p>
-    <img id="images/photo1.jpg" src = "images/imagefinale.jpeg">
+    <img id="images/imagefinale.jpeg" src = "images/imagefinale.jpeg">
     <p style="margin-top:10px;">Score final : ${score} / ${images.length}</p>
   `;
 }
