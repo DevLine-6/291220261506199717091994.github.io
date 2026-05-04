@@ -45,8 +45,8 @@
 
     img {
       width: 200%;
-      border-radius: 150px;
-      margin-bottom: 180px;
+      border-radius: 50px;
+      margin-bottom: 80px;
       transition: transform 0.3s;
     }
 
