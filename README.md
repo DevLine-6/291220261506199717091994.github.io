@@ -145,7 +145,7 @@ function loadImage() {
 function showEndScreen() {
   container.innerHTML = `
     <h1>🎉 Alors ?</h1>
-    <p style="font-size:30px; margin-top:20px; color:##FFC6AC">
+    <p style="font-size:30px; margin-top:20px; color:#FFC6AC">
       Prêts à être encore grands parents ?
     </p>
     <img id="images/imagefinale.jpeg" src = "images/imagefinale.jpeg">
