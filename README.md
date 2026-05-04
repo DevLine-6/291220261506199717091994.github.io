@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -46,8 +45,8 @@
 
     img {
       width: 200%;
-      border-radius: 25px;
-      margin-bottom: 30px;
+      border-radius: 50px;
+      margin-bottom: 80px;
       transition: transform 0.3s;
     }
 
