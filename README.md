@@ -156,14 +156,14 @@ function loadImage() {
 }
 
 function showEndScreen() {
+  container.innerHTML = `
+    <div class="fade-in">
     <h1 style="
         font-size:28px;
         line-height:1.4;
       ">
         Prêts à être encore grands parents ?
       </h1>
-  container.innerHTML = `
-    <div class="fade-in">
       <img 
         src="images/image3.jpg"
         style="
