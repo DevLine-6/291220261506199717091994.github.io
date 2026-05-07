@@ -10,16 +10,15 @@
       padding: 0;
       box-sizing: border-box;
       font-family: Arial, sans-serif;
+      
   .fade-in {
   animation: fadeIn 2s ease forwards;
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
     transform: translateY(15px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
@@ -157,26 +156,24 @@ function loadImage() {
 }
 
 function showEndScreen() {
-  container.innerHTML = `
-    <div class="fade-in">
-
-      <img 
-        src="images/image3.jpg"
-        style="
-          width:100%;
-          border-radius:20px;
-          margin-bottom:20px;
-          opacity:0.95;
-        "
-      >
-
-      <h1 style="
+    <h1 style="
         font-size:28px;
         line-height:1.4;
       ">
         Prêts à être encore grands parents ?
       </h1>
-
+  container.innerHTML = `
+    <div class="fade-in">
+      <img 
+        src="images/image3.jpg"
+        style="
+          width:70%;
+          border-radius:20px;
+          margin-bottom:20px;
+          opacity:0.95;
+        "
+      >
+    
     </div>
   `;
 }
