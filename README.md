@@ -160,9 +160,9 @@ function loadImage() {
 function showEndScreen() {
   container.innerHTML = `
     <div class="fade-in">
-      <h1>🎉 Jeu terminé</h1>
+      <h1>🎉 ALORS ?</h1>
 
-      <p style="font-size:18px; margin-top:15px;">
+      <p style="font-size:30px; margin-top:15px;">
         Prêts à être encore grands parents ?
       </p>
 
