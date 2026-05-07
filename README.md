@@ -10,14 +10,14 @@
       padding: 0;
       box-sizing: border-box;
       font-family: Arial, sans-serif;
-      .fade-in {
+  .fade-in {
   animation: fadeIn 2s ease forwards;
 }
 
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(15px);
   }
 
   to {
@@ -25,7 +25,6 @@
     transform: translateY(0);
   }
 }
-    }
 
     body {
       background: linear-gradient(135deg, #7EB09B, #476A6F);
@@ -160,22 +159,24 @@ function loadImage() {
 function showEndScreen() {
   container.innerHTML = `
     <div class="fade-in">
-      <h1>🎉 ALORS ?</h1>
-      <p style="font-size:30px; margin-top:15px;">
-        Prêts à être encore grands parents ?
-      </p>
-        <p style="margin-top:10px;">
-        ${images.length}
-      </p>
+
       <img 
         src="images/image3.jpg"
         style="
           width:100%;
-          margin-top:20px;
-          border-radius:15px;
+          border-radius:20px;
+          margin-bottom:20px;
           opacity:0.95;
         "
       >
+
+      <h1 style="
+        font-size:28px;
+        line-height:1.4;
+      ">
+        Prêts à être encore grands parents ?
+      </h1>
+
     </div>
   `;
 }
