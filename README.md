@@ -10,6 +10,21 @@
       padding: 0;
       box-sizing: border-box;
       font-family: Arial, sans-serif;
+      .fade-in {
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
     }
 
     body {
@@ -144,12 +159,27 @@ function loadImage() {
 
 function showEndScreen() {
   container.innerHTML = `
-    <h1>🎉 Alors ?</h1>
-    <p style="font-size:30px; margin-top:20px; color:#FFC6AC">
-      Prêts à être encore grands parents ?
-    </p>
-    <img id="images/imagefinale.jpeg" src = "images/imagefinale.jpeg">
-   
+    <div class="fade-in">
+      <h1>🎉 Jeu terminé</h1>
+
+      <p style="font-size:18px; margin-top:15px;">
+        Prêts à être encore grands parents ?
+      </p>
+
+      <p style="margin-top:10px;">
+        Score final : ${score} / ${images.length}
+      </p>
+
+      <img 
+        src="images/photo3.jpg"
+        style="
+          width:100%;
+          margin-top:20px;
+          border-radius:15px;
+          opacity:0.95;
+        "
+      >
+    </div>
   `;
 }
 
