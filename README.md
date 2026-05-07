@@ -171,7 +171,7 @@ function showEndScreen() {
       </p>
 
       <img 
-        src="images/photo3.jpg"
+        src="images/image3.jpg"
         style="
           width:100%;
           margin-top:20px;
