@@ -165,11 +165,6 @@ function showEndScreen() {
       <p style="font-size:30px; margin-top:15px;">
         Prêts à être encore grands parents ?
       </p>
-
-      <p style="margin-top:10px;">
-        Score final : ${score} / ${images.length}
-      </p>
-
       <img 
         src="images/image3.jpg"
         style="
