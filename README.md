@@ -165,7 +165,7 @@ function showEndScreen() {
         Prêts à être encore grands parents ?
       </p>
         <p style="margin-top:10px;">
-       / ${images.length}
+        ${images.length}
       </p>
       <img 
         src="images/image3.jpg"
